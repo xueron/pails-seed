@@ -1,0 +1,15 @@
+{
+  "name": "xueron/pails-seed",
+  "description": "Pails Application Seed",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Xueron Nee",
+      "email": "xueron@xueron.com"
+    }
+  ],
+  "require": {
+	  "xueron/pails": "dev-master"
+  }
+}

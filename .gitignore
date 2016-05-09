@@ -1,0 +1,8 @@
+!.gitkeep
+/.idea/
+/vendor/
+/log/*.log
+/tmp/cache/volt/*.volt.php
+/tmp/pids/*
+/tmp/sockets/*
+/composer.lock
