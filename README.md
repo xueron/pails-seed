@@ -11,7 +11,6 @@
 ~/bin
 
 ~/config
-- application.php 应用初始化程序
 - database.yml 数据库配置
 
 ~/db
@@ -22,7 +21,7 @@
 - 第三方类库
 
 ~/log
-- 营业程序日志存放
+- 应用程序内日志存放
 
 ~/public
 - WEB应用的主目录
