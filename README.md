@@ -1,12 +1,12 @@
 ~/app
-- commands: 命令行工具的控制器
-- controllers: WEB应用控制器
-- helpers: 帮助工具类
-- models: 数据库模型 -- 扩展 \Phalcon\Mvc\Model
-- services: 业务服务抽象
-- validators: 验证程序 -- 扩展 \Phalcon\Validator
-- workers: 后台服务
-- views: 视图文件（非PHP代码）
+- Commands: 命令行工具的控制器
+- Controllers: WEB应用控制器
+- Helpers: 帮助工具类
+- Models: 数据库模型 -- 扩展 \Phalcon\Mvc\Model
+- Services: 业务服务抽象
+- Validators: 验证程序 -- 扩展 \Phalcon\Validator
+- Workers: 后台服务
+- Views: 视图文件（非PHP代码）
 
 ~/bin
 
