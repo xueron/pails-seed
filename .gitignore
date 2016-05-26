@@ -1,6 +1,6 @@
 !.gitkeep
-/.idea/
-/vendor/
+/.idea
+/vendor
 /log/*.log
 /tmp/cache/volt/*.volt.php
 /tmp/pids/*
