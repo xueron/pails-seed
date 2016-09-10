@@ -4,6 +4,8 @@
 /log/*.log
 /tmp/cache/volt/*.volt.php
 /tmp/pids/*
+!/tmp/pids/.gitkeep
 /tmp/sockets/*
+!/tmp/sockets/.gitkeep
 /composer.lock
 /lib/pails

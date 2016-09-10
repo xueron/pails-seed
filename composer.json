@@ -9,12 +9,7 @@
       "email": "xueron@xueron.com"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "Pails\\": "lib/pails/src/Pails"
-    },
-    "files": [
-      "lib/pails/src/Pails/helper.php"
-    ]
+  "require": {
+    "xueron/pails": "dev-master"
   }
 }
