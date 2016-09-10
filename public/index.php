@@ -1,5 +1,8 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
-require_once __DIR__ . '/../config/application.php';
-$app = new Application();
-$app->run();
+
+$app = new Pails\Application(dirname(__DIR__));
+
+$aaa = new App\Application($app);
+
+$app->run(App\Application::class);

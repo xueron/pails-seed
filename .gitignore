@@ -6,3 +6,4 @@
 /tmp/pids/*
 /tmp/sockets/*
 /composer.lock
+/lib/pails

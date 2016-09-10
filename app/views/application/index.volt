@@ -1,2 +1,2 @@
 Hello World!
-{{ dump(di) }}
+{{ dump(app().get('view')) }}
