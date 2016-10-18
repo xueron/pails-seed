@@ -1,3 +1,4 @@
+/node_modules
 !.gitkeep
 /.idea
 /vendor
@@ -8,4 +9,3 @@
 /tmp/sockets/*
 !/tmp/sockets/.gitkeep
 /composer.lock
-/lib/pails
