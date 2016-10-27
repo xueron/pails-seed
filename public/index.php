@@ -1,16 +1,15 @@
 <?php
-try {
-    require_once __DIR__ . '/../vendor/autoload.php';
-    $debug = new \Phalcon\Debug();
-    $debug->listen(true, true);
+/**
+ * index.php
+ */
+// Phalcon Debugger Listen to Exceptions Globally
+defined('APP_DEBUG') or define('APP_DEBUG', true);
+$debug = new \Phalcon\Debug();
+$debug->setUri('//static.pails.xueron.com/debug/3.0.x/'); // 国内CDN静态资源
+$debug->listen();
 
+require_once __DIR__ . '/../vendor/autoload.php';
 
+$container = new Pails\Container(dirname(__DIR__));
 
-    $container = new Pails\Container(dirname(__DIR__));
-
-    $container->run(App\Application::class);
-} catch (\Exception $e) {
-    echo "系统内部错错误: " . $e->getMessage();
-} catch (\Error $e) {
-    echo "系统内部错错误: " . $e->getMessage();
-}
+$container->run(App\Http\Application::class);

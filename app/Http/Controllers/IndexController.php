@@ -1,11 +1,14 @@
 <?php
-namespace App\Controllers\Admin;
-
+/**
+ * IndexController.php
+ *
+ */
+namespace App\Http\Controllers;
 
 /**
  * Class IndexController
- * @package App\Controllers\Admin
- * @RoutePrefix("/admin")
+ * @package App\Controllers
+ * @RoutePrefix("/")
  */
 class IndexController extends ControllerBase
 {
@@ -14,6 +17,6 @@ class IndexController extends ControllerBase
      */
     public function indexAction()
     {
+
     }
 }
-
