@@ -1,7 +1,16 @@
 <?php
-namespace App\Commands;
+namespace App\Console\Commands;
 
-class Hello
+use Pails\Console\Command;
+
+class Hello extends Command
 {
+    protected $name = 'app:hello';
 
+    protected $description = 'App defined Command';
+
+    public function handle()
+    {
+        $this->line("hi, i'm pails app");
+    }
 }

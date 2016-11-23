@@ -7,6 +7,8 @@ if (!file_exists(__DIR__ . '/vendor/autoload.php')) {
         'php composer.phar install' . PHP_EOL
     );
 }
+defined('APP_DEBUG') or define('APP_DEBUG', true);
+
 require __DIR__ . '/vendor/autoload.php';
 
 $container = new \Pails\Container(__DIR__);
