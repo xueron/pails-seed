@@ -3,7 +3,7 @@
 /.idea
 /vendor
 /log/*.log
-/tmp/cache/volt/*.volt.php
+/tmp/cache/volt/*.php
 /tmp/pids/*
 !/tmp/pids/.gitkeep
 /tmp/sockets/*

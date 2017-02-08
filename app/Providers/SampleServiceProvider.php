@@ -11,6 +11,7 @@ class SampleServiceProvider extends AbstractServiceProvider
     {
         $this->getDI()->setShared(
             $this->serviceName,
+
             function () {
                 //
             }

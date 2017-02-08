@@ -4,11 +4,11 @@
  *
  */
 namespace App\Http\Controllers;
+use App\Models\User;
 
 /**
  * Class IndexController
  * @package App\Controllers
- * @RoutePrefix("/")
  */
 class IndexController extends ControllerBase
 {
@@ -20,6 +20,17 @@ class IndexController extends ControllerBase
 
     }
 
+    /**
+     * @Route("/user")
+     */
+    public function userAction()
+    {
+        var_dump(User::find());
+    }
+
+    /**
+     * @Route("/notfound")
+     */
     public function notfoundAction()
     {
 

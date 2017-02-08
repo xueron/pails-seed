@@ -10,6 +10,6 @@
     }
   ],
   "require": {
-    "xueron/pails": "2.0.x-dev"
+    "xueron/pails": "3.0.x-dev"
   }
 }
