@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "xueron/pails": "3.0.x-dev"
+    "xueron/pails": "^3.0"
   },
   "config": {
     "preferred-install": "dist",
