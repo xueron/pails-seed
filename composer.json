@@ -3,6 +3,7 @@
   "description": "Pails Application Seed",
   "minimum-stability": "dev",
   "license": "proprietary",
+  "type": "project",
   "authors": [
     {
       "name": "Xueron Nee",
@@ -11,5 +12,9 @@
   ],
   "require": {
     "xueron/pails": "3.0.x-dev"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
   }
 }

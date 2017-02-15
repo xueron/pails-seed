@@ -1,8 +1,4 @@
 <?php
-/**
- * User.php
- *
- */
 
 namespace App\Models;
 

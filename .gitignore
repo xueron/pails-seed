@@ -1,11 +1,9 @@
-/node_modules
-!.gitkeep
 /.idea
+/node_modules
 /vendor
-/log/*.log
-/tmp/cache/volt/*.php
+/log/*
+/tmp/cache/*/*
 /tmp/pids/*
-!/tmp/pids/.gitkeep
 /tmp/sockets/*
-!/tmp/sockets/.gitkeep
 /composer.lock
+!**/.gitkeep
