@@ -1,18 +1,15 @@
 <?php
-/**
- * Application.php
- *
- */
 namespace App\Console;
 
+use App\Providers\SampleServiceProvider;
 
 class Application extends \Pails\Console\Application
 {
     protected $providers = [
-
+        SampleServiceProvider::class
     ];
 
     protected $commands = [
-        Commands\Hello::class
+        Commands\HelloCommand::class
     ];
 }
