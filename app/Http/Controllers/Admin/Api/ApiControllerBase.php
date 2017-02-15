@@ -1,8 +1,4 @@
 <?php
-/**
- * ApiControllerBase.php
- *
- */
 namespace App\Http\Controllers\Admin\Api;
 
 use Pails\Mvc\Controller;

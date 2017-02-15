@@ -1,10 +1,5 @@
 <?php
-/**
- * IndexController.php
- *
- */
 namespace App\Http\Controllers;
-use App\Models\User;
 
 /**
  * Class IndexController
@@ -18,14 +13,6 @@ class IndexController extends ControllerBase
     public function indexAction()
     {
 
-    }
-
-    /**
-     * @Route("/user")
-     */
-    public function userAction()
-    {
-        var_dump(User::find());
     }
 
     /**
