@@ -1,7 +1,7 @@
 {
   "name": "xueron/pails-seed",
   "description": "Pails Application Seed",
-  "minimum-stability": "dev",
+  "keywords": ["phalcon", "pails", "framework", "php"],
   "license": "proprietary",
   "type": "project",
   "authors": [
@@ -11,7 +11,9 @@
     }
   ],
   "require": {
-    "xueron/pails": "3.0.*"
+    "php": ">=7.0",
+    "ext-phalcon": "^3.0",
+    "xueron/pails": "^3.0"
   },
   "config": {
     "preferred-install": "dist",
