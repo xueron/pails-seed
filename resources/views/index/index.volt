@@ -40,9 +40,9 @@
 <body>
 <div class="container">
     <div class="content">
-        <div class="title">Pails </div>
-        <p>Powered by Phalcon</p>
-        <p>{{ env("APP_ENV", "development") }}</p>
+        <div class="title">Pails v{{ di.version() }}</div>
+        <p>Powered by Phalcon {{ di.getPhalconVersion() }}</p>
+        <p>{{ di.environment() }}</p>
     </div>
 </div>
 </body>

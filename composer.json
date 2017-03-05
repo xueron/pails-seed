@@ -13,6 +13,9 @@
   "require": {
     "php": ">=7.0",
     "ext-phalcon": "^3.0",
+    "aliyuncs/oss-sdk-php": "^2.2",
+    "guzzlehttp/guzzle": "^6.2",
+    "symfony/process": "^3.2",
     "xueron/pails": "^3.0"
   },
   "config": {

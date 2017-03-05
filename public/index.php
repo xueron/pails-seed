@@ -1,7 +1,4 @@
 <?php
-/**
- * index.php
- */
 // Phalcon Debugger Listen to Exceptions Globally
 defined('APP_DEBUG') or define('APP_DEBUG', true);
 $debug = new \Phalcon\Debug();
