@@ -8,9 +8,7 @@ class SampleServiceProvider extends AbstractServiceProvider
 {
     public function register()
     {
-        $di = $this->getDI();
-
-        $di->setShared(
+        $this->di->setShared(
             'sampleService',
             function () {
                 return new SampleService();
