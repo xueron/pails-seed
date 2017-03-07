@@ -1,11 +1,9 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Pails - Powered by Phalcon</title>
 
-    <link href="http://fonts.useso.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <title>Pails - Powered by Pails v{{ getDI().version() }}, Phalcon {{ version() }}</title>
 
     <style>
         html, body {
@@ -33,16 +31,16 @@
         }
 
         .title {
-            font-size: 96px;
+            font-size: 64px;
         }
     </style>
 </head>
 <body>
 <div class="container">
     <div class="content">
-        <div class="title">Pails v{{ di.version() }}</div>
-        <p>Powered by Phalcon {{ di.getPhalconVersion() }}</p>
-        <p>{{ di.environment() }}</p>
+        <div class="title">Pails, A PHP framework base on Phalcon.</div>
+        <p>Powered by Pails v{{ getDI().version() }}, Phalcon {{ version() }}</p>
+        <p>environment: {{ getDI().environment() }}</p>
     </div>
 </div>
 </body>
