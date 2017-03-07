@@ -12,7 +12,6 @@ class IndexController extends ControllerBase
      */
     public function indexAction()
     {
-        $this->view->setVar('di', $this->di);
     }
 
     /**
@@ -20,6 +19,5 @@ class IndexController extends ControllerBase
      */
     public function notfoundAction()
     {
-
     }
 }

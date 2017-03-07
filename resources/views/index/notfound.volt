@@ -1,11 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>404 Not Found - Powered by Phalcon</title>
-
-    <link href="http://fonts.useso.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <title>404 Not Found - Powered by Pails v{{ getDI().version() }}, Phalcon {{ version() }}</title>
 
     <style>
         html, body {
@@ -33,7 +30,7 @@
         }
 
         .title {
-            font-size: 96px;
+            font-size: 64px;
         }
     </style>
 </head>
@@ -41,8 +38,8 @@
 <div class="container">
     <div class="content">
         <div class="title">404 Not Found</div>
-        <p>Powered by Pails v{{ di.version() }}, Phalcon {{ di.getPhalconVersion() }}</p>
-        <p>{{ di.environment() }}</p>
+        <p>Powered by Pails v{{ getDI().version() }}, Phalcon {{ version() }}</p>
+        <p>environment: {{ getDI().environment() }}</p>
     </div>
 </div>
 </body>
