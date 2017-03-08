@@ -5,15 +5,46 @@
  */
 return [
     'development' => [
+        'debug' => true,
         'key' => 'xxxxxxxxxxxxxxx',
-        'debug' => true
+        'model' => [
+            'cache' => [
+                'lifetime' => 3600,
+            ]
+        ],
+        'view' => [
+            'cache' => [
+                'lifetime' => 3600,
+            ]
+        ]
     ],
     'testing' => [
-        'key' => 'xxxxxxxxxxxxxx',
-        'debug' => true
+        'debug' => true,
+        'key' => 'xxxxxxxxxxxxxxx',
+        'model' => [
+            'cache' => [
+                'lifetime' => 3600,
+            ]
+        ],
+        'view' => [
+            'cache' => [
+                'lifetime' => 3600,
+            ]
+        ]
     ],
     'production' => [
-        'key' => 'xxxxxxxxxxxxxx',
-        'debug' => false
+        'debug' => true,
+        'key' => 'xxxxxxxxxxxxxxx',
+        'model' => [
+            'cache' => [
+                'lifetime' => 3600,
+            ]
+        ],
+        'view' => [
+            'cache' => [
+                'lifetime' => 3600,
+            ]
+        ]
+
     ]
 ];

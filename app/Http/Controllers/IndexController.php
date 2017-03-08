@@ -19,5 +19,8 @@ class IndexController extends ControllerBase
      */
     public function notfoundAction()
     {
+        if ($this->request->isAjax()) {
+            return $this->apiResponse->setStatusCode(404)->errorNotFound();
+        }
     }
 }
