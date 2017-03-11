@@ -11,8 +11,6 @@
     }
   ],
   "require": {
-    "php": ">=7.0",
-    "ext-phalcon": "^3.0",
     "xueron/pails": "^3.0"
   },
   "config": {
