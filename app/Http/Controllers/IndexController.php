@@ -1,6 +1,8 @@
 <?php
 namespace App\Http\Controllers;
 
+use Pails\Exception;
+
 /**
  * Class IndexController
  * @package App\Controllers
@@ -19,8 +21,6 @@ class IndexController extends ControllerBase
      */
     public function notfoundAction()
     {
-        if ($this->request->isAjax()) {
-            return $this->apiResponse->setStatusCode(404)->errorNotFound();
-        }
+        throw Exception::clientException('Resource Not Found', 404);
     }
 }
