@@ -9,10 +9,10 @@ use App\Providers\SampleServiceProvider;
 class Application extends \Pails\Console\Application
 {
     protected $providers = [
-        SampleServiceProvider::class
+        SampleServiceProvider::class,
     ];
 
     protected $commands = [
-        Commands\HelloCommand::class
+        Commands\HelloCommand::class,
     ];
 }

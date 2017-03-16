@@ -8,7 +8,7 @@ return [
         'accessId'  => '',
         'accessKey' => '',
         'endpoint'  => '',
-        'bucket'    => ''
+        'bucket'    => '',
     ],
 
     'testing' => [
@@ -16,7 +16,7 @@ return [
         'accessId'  => '',
         'accessKey' => '',
         'endpoint'  => '',
-        'bucket'    => ''
+        'bucket'    => '',
     ],
 
     'production' => [
@@ -24,6 +24,6 @@ return [
         'accessId'  => '',
         'accessKey' => '',
         'endpoint'  => '',
-        'bucket'    => ''
-    ]
+        'bucket'    => '',
+    ],
 ];

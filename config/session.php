@@ -6,8 +6,8 @@ return [
     'development' => [
         'adapter' => 'file',
         'options' => [
-            'uniqueId' => 'pails_seed_'
-        ]
+            'uniqueId' => 'pails_seed_',
+        ],
     ],
 
     'testing' => [
@@ -20,7 +20,7 @@ return [
             "persistent" => false,
             "lifetime"   => 3600,
             "prefix"     => "my",
-        ]
+        ],
     ],
 
     'production' => [
@@ -31,6 +31,6 @@ return [
             "port"     => 11211,
             "lifetime" => 3600,
             "prefix"   => "my",
-        ]
-    ]
+        ],
+    ],
 ];

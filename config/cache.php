@@ -22,7 +22,7 @@ return [
             'host'       => 'localhost',
             'port'       => '6379',
             'auth'       => '',
-            'persistent' => true
+            'persistent' => true,
         ],
 
         /*
@@ -34,8 +34,8 @@ return [
             'prefix'     => '',
             'host'       => '',
             'port'       => '',
-            'persistent' => true
-        ]
+            'persistent' => true,
+        ],
     ],
 
     'testing' => [
@@ -50,7 +50,7 @@ return [
             'host'       => '',
             'port'       => '',
             'auth'       => '',
-            'persistent' => true
+            'persistent' => true,
         ],
         'memcache' => [
             'enable'     => false,
@@ -58,8 +58,8 @@ return [
             'prefix'     => '',
             'host'       => '',
             'port'       => '',
-            'persistent' => true
-        ]
+            'persistent' => true,
+        ],
     ],
 
     'production' => [
@@ -74,7 +74,7 @@ return [
             'host'       => '',
             'port'       => '',
             'auth'       => '',
-            'persistent' => true
+            'persistent' => true,
         ],
         'memcache' => [
             'enable'     => false,
@@ -82,7 +82,7 @@ return [
             'prefix'     => '',
             'host'       => '',
             'port'       => '',
-            'persistent' => true
-        ]
-    ]
+            'persistent' => true,
+        ],
+    ],
 ];

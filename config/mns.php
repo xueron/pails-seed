@@ -37,5 +37,5 @@ return [
         'endpoint'  => '',
         'accessId'  => '',
         'accessKey' => '',
-    ]
+    ],
 ];

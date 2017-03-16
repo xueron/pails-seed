@@ -21,7 +21,7 @@ return [
         'model' => [
             'cache' => [
                 'lifetime' => 3600,
-            ]
+            ],
         ],
 
         /*
@@ -30,8 +30,8 @@ return [
         'view'  => [
             'cache' => [
                 'lifetime' => 3600,
-            ]
-        ]
+            ],
+        ],
     ],
 
     'testing' => [
@@ -40,13 +40,13 @@ return [
         'model' => [
             'cache' => [
                 'lifetime' => 3600,
-            ]
+            ],
         ],
         'view'  => [
             'cache' => [
                 'lifetime' => 3600,
-            ]
-        ]
+            ],
+        ],
     ],
 
     'production' => [
@@ -55,13 +55,13 @@ return [
         'model' => [
             'cache' => [
                 'lifetime' => 3600,
-            ]
+            ],
         ],
         'view'  => [
             'cache' => [
                 'lifetime' => 3600,
-            ]
-        ]
+            ],
+        ],
 
-    ]
+    ],
 ];

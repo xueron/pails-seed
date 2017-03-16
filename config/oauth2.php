@@ -58,7 +58,7 @@ return [
          */
         'refresh_token'     => [
             'enabled'   => true,
-            'token_ttl' => 3600
+            'token_ttl' => 3600,
         ],
 
         /*
@@ -66,7 +66,7 @@ return [
          */
         'implicit'          => [
             'enabled'   => true,
-            'token_ttl' => 3600
+            'token_ttl' => 3600,
         ],
     ],
 
@@ -90,11 +90,11 @@ return [
         ],
         'refresh_token'     => [
             'enabled'   => true,
-            'token_ttl' => 3600
+            'token_ttl' => 3600,
         ],
         'implicit'          => [
             'enabled'   => true,
-            'token_ttl' => 3600
+            'token_ttl' => 3600,
         ],
     ],
 
@@ -118,12 +118,12 @@ return [
         ],
         'refresh_token'     => [
             'enabled'   => true,
-            'token_ttl' => 3600
+            'token_ttl' => 3600,
         ],
         'implicit'          => [
             'enabled'   => true,
-            'token_ttl' => 3600
+            'token_ttl' => 3600,
 
         ],
-    ]
+    ],
 ];

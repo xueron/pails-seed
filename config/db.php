@@ -28,7 +28,7 @@ return [
             'user'    => '',
             'pass'    => '',
             'charset' => 'utf8',
-        ]
+        ],
     ],
 
     'testing' => [
@@ -56,7 +56,7 @@ return [
             'user'    => '',
             'pass'    => '',
             'charset' => 'utf8',
-        ]
+        ],
     ],
 
     'production' => [
@@ -84,6 +84,6 @@ return [
             'user'    => '',
             'pass'    => '',
             'charset' => 'utf8',
-        ]
-    ]
+        ],
+    ],
 ];
