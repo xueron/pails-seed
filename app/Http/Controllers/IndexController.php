@@ -1,10 +1,14 @@
 <?php
+/**
+ *
+ */
 namespace App\Http\Controllers;
 
 use Pails\Exception;
 
 /**
  * Class IndexController
+ *
  * @package App\Controllers
  */
 class IndexController extends ControllerBase

@@ -14,14 +14,14 @@ class CreateInitUser extends AbstractSeed
      */
     public function run()
     {
-        $data = array(
-            array(
+        $data = [
+            [
                 'name'       => 'pails',
                 'password'   => '$2y$08$VkFNV240VDNIRVVmVG1tMuB/abZGk6vvbzg.zsMHZkqzIuJX8GESy',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),
-            )
-        );
+            ],
+        ];
 
         $users = $this->table('users');
         $users->insert($data)

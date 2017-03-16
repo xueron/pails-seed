@@ -1,4 +1,7 @@
 <?php
+/**
+ *
+ */
 namespace App\Providers;
 
 use App\Services\SampleService;
@@ -16,4 +19,3 @@ class SampleServiceProvider extends AbstractServiceProvider
         );
     }
 }
-

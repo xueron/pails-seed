@@ -27,12 +27,11 @@ class CreateUsersTable extends AbstractMigration
      */
     public function change()
     {
-        $this->table("users")
-            ->addColumn("name", "string")
-            ->addColumn("password", "string")
+        $this->table('users')
+            ->addColumn('name', 'string')
+            ->addColumn('password', 'string')
             ->addTimestamps()
             ->addIndex(['name'], ['unique' => true])
             ->create();
-
     }
 }
