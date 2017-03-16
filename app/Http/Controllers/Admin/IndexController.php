@@ -3,6 +3,7 @@ namespace App\Http\Controllers\Admin;
 
 /**
  * Class IndexController
+ *
  * @package App\Controllers\Admin
  * @RoutePrefix("/admin")
  */
