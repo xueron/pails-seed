@@ -1,4 +1,7 @@
 <?php
+/**
+ * HelloCommand.
+ */
 namespace App\Console\Commands;
 
 use Pails\Console\Command;

@@ -1,4 +1,7 @@
 <?php
+/**
+ *
+ */
 namespace App\Http\Controllers\Api;
 
 use Pails\Mvc\Controller;

@@ -1,4 +1,7 @@
 <?php
+/**
+ * ControllerBase.
+ */
 namespace App\Http\Controllers\Admin;
 
 use Pails\Mvc\Controller;

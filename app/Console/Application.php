@@ -1,4 +1,7 @@
 <?php
+/**
+ * Application.
+ */
 namespace App\Console;
 
 use App\Providers\SampleServiceProvider;

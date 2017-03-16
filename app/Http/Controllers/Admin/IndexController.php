@@ -1,4 +1,7 @@
 <?php
+/**
+ * IndexController.
+ */
 namespace App\Http\Controllers\Admin;
 
 /**
