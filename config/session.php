@@ -13,24 +13,24 @@ return [
     'testing' => [
         'adapter' => 'redis',
         'options' => [
-            "uniqueId"   => "my-private-app",
-            "host"       => "localhost",
-            "port"       => 6379,
-            "auth"       => "",
-            "persistent" => false,
-            "lifetime"   => 3600,
-            "prefix"     => "my",
+            'uniqueId'   => 'my-private-app',
+            'host'       => 'localhost',
+            'port'       => 6379,
+            'auth'       => '',
+            'persistent' => false,
+            'lifetime'   => 3600,
+            'prefix'     => 'my',
         ],
     ],
 
     'production' => [
         'adapter' => 'memcached',
         'options' => [
-            "uniqueId" => "my-private-app",
-            "host"     => "localhost",
-            "port"     => 11211,
-            "lifetime" => 3600,
-            "prefix"   => "my",
+            'uniqueId' => 'my-private-app',
+            'host'     => 'localhost',
+            'port'     => 11211,
+            'lifetime' => 3600,
+            'prefix'   => 'my',
         ],
     ],
 ];
