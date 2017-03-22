@@ -7,7 +7,7 @@ return [
         /*
          * 私钥文件路径，作为AS服务器必须配置
          */
-        'private_key'       => 'value',
+        'private_key'       => '',
 
         /*
          * 公钥文件路径，作为RS或者AS都需要配置，跟AS的私钥是一对的
@@ -18,12 +18,12 @@ return [
          * 作为客户端的配置
          */
         'client'            => [
-            'client_id'          => '625e9f57-c885-48eb-a2ab-51bf66db010e', // 应用APP ID，由AS颁发
-            'client_secret'      => 'VGlDRlc1MG8yK2xwekxNQzhqOGNoZz09', // 应用的密钥
-            'redirect_url'       => 'http://local-3th.dovecot.cn/oauth/ud', // 应用的回调地址
-            'authorize_url'      => 'http://local-as.dovecot.cn/api/oauth/authorize', // AS 的认证地址
-            'access_token_url'   => 'http://local-as.dovecot.cn/api/oauth/access_token', // AS 的token获取地址
-            'resource_owner_url' => 'http://local-as.dovecot.cn/api/user', // AS 获取用户信息的地址
+            'client_id'          => '', // 应用APP ID，由AS颁发
+            'client_secret'      => '', // 应用的密钥
+            'redirect_url'       => '', // 应用的回调地址
+            'authorize_url'      => '', // AS 的认证地址
+            'access_token_url'   => '', // AS 的token获取地址
+            'resource_owner_url' => '', // AS 获取用户信息的地址
         ],
 
         /*

@@ -1,10 +1,8 @@
 <?php
 /**
- *
+ * IndexController
  */
 namespace App\Http\Controllers;
-
-use Pails\Exception;
 
 /**
  * Class IndexController
@@ -25,6 +23,8 @@ class IndexController extends ControllerBase
      */
     public function notfoundAction()
     {
-        throw Exception::clientException('Resource Not Found', 404);
+        if ($this->exceptionHandler->expectJson()) {
+            return $this->apiResponse->errorNotFound();
+        }
     }
 }
