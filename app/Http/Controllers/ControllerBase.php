@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * ControllerBase
  */
 namespace App\Http\Controllers;
 

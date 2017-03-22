@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * ModelBase.
  */
 namespace App\Models;
 

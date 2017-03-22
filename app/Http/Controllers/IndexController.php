@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * IndexController
  */
 namespace App\Http\Controllers;
 
@@ -28,3 +28,4 @@ class IndexController extends ControllerBase
         throw Exception::clientException('Resource Not Found', 404);
     }
 }
+

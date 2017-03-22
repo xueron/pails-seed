@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * SampleServiceProvider.
  */
 namespace App\Providers;
 
