@@ -38,7 +38,7 @@
 <body>
 <div class="container">
     <div class="content">
-        <div class="title">Pails, A PHP framework base on Phalcon.</div>
+        <div class="title">{{ config.get('app.name') }}</div>
         <p>Powered by Pails v{{ getDI().version() }}, Phalcon {{ version() }}</p>
         <p>environment: {{ getDI().environment() }}</p>
     </div>

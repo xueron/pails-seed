@@ -5,6 +5,7 @@
 return [
     'development' => [
         'adapter' => 'file',
+        'cookie'  => 'pails_session',
         'options' => [
             'uniqueId' => 'pails_seed_',
         ],
@@ -12,6 +13,7 @@ return [
 
     'testing' => [
         'adapter' => 'redis',
+        'cookie'  => 'pails_session',
         'options' => [
             'uniqueId'   => 'my-private-app',
             'host'       => 'localhost',
@@ -25,6 +27,7 @@ return [
 
     'production' => [
         'adapter' => 'memcached',
+        'cookie'  => 'pails_session',
         'options' => [
             'uniqueId' => 'my-private-app',
             'host'     => 'localhost',
