@@ -4,17 +4,21 @@
  */
 return [
     'development' => [
-        'name'  => 'Pails, A PHP framework base on Phalcon.',
         /*
-         * 是否开启调试模式，在 index.php 里面统一配置
+         * app.name 系统名称
+         */
+        'name'  => 'Pails, A PHP framework base on Phalcon.',
+
+        /*
+         * app.debug 是否开启调试模式，在 index.php 里面统一配置
          */
         'debug' => constant('APP_DEBUG') ?: false,
         /*
-         * 加密用到的Key，启用Cookie的时候会用到
+         * app.key 加密用到的Key，启用Cookie的时候会用到
          */
         'key'   => 'xxxxxxxxxxxxxxx',
         /*
-         * model的缓存以及其他设置
+         * app.model.cache.lifetime model的缓存以及其他设置
          */
         'model' => [
             'cache' => [
@@ -22,7 +26,7 @@ return [
             ],
         ],
         /*
-         * 视图的缓存等设置
+         * app.view.cache.lifetime 视图的缓存等设置
          */
         'view'  => [
             'cache' => [
@@ -30,7 +34,8 @@ return [
             ],
         ],
     ],
-    'testing' => [
+
+    'testing'    => [
         'name'  => 'Pails, A PHP framework base on Phalcon.',
         'debug' => true,
         'key'   => 'xxxxxxxxxxxxxxx',
@@ -45,6 +50,7 @@ return [
             ],
         ],
     ],
+
     'production' => [
         'name'  => 'Pails, A PHP framework base on Phalcon.',
         'debug' => true,
