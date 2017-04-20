@@ -13,6 +13,6 @@ class Application extends \Pails\Console\Application
     ];
 
     protected $commands = [
-        Commands\HelloCommand::class,
+        Commands\TestCommand::class,
     ];
 }
